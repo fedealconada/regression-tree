@@ -1,0 +1,37 @@
+node {
+    shape: circle;
+    size: 10px, 10px;
+    
+    text-padding:3;
+    fill-mode: plain;    
+    fill-color: #3d7efd; 
+    stroke-mode: plain; 
+    text-style:bold;
+    text-alignment: above;
+    text-size:9px;
+    
+    text-background-mode: rounded-box; 
+    text-background-color: #95fb85; 
+    
+    text-padding: 2px, 1px; 
+    text-offset: 0px, -5px; 
+}
+edge {
+	
+    /*text-alignment: under;*/ 
+    text-color: white;  
+    text-background-mode: rounded-box; 
+    text-background-color: #222C; 
+    text-padding: 3px, 2px; 
+    text-offset: 0px, 2px; 
+    
+    shape: line;
+    fill-color: #222;
+    arrow-size: 3px, 2px;
+}
+
+node.marked{
+	fill-color:#fb3946;
+	text-background-color: #fb3946; 
+}
+
